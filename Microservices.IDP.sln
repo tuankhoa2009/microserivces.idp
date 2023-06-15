@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32616.157
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microservices.IDP", "src\Microservices.IDP\Microservices.IDP.csproj", "{B0A6C624-297B-459B-B4CC-9EBB7A7408A9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{233C046A-AEC1-4070-A09D-9302C4C54594}"
+	ProjectSection(SolutionItems) = preProject
+		src\docker-compose.yml = src\docker-compose.yml
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microservices.IDP.Presentation", "src\Microservices.IDP.Presentation\Microservices.IDP.Presentation.csproj", "{79C76F66-D8EF-435F-BC66-1F40FD43C214}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microservices.IDP.Infrastructure", "src\Microservices.IDP.Infrastructure\Microservices.IDP.Infrastructure.csproj", "{8C3022D1-86BB-444A-8908-31A43F17EBF2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B0A6C624-297B-459B-B4CC-9EBB7A7408A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0A6C624-297B-459B-B4CC-9EBB7A7408A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0A6C624-297B-459B-B4CC-9EBB7A7408A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0A6C624-297B-459B-B4CC-9EBB7A7408A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79C76F66-D8EF-435F-BC66-1F40FD43C214}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79C76F66-D8EF-435F-BC66-1F40FD43C214}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79C76F66-D8EF-435F-BC66-1F40FD43C214}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79C76F66-D8EF-435F-BC66-1F40FD43C214}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C3022D1-86BB-444A-8908-31A43F17EBF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C3022D1-86BB-444A-8908-31A43F17EBF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C3022D1-86BB-444A-8908-31A43F17EBF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C3022D1-86BB-444A-8908-31A43F17EBF2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {256154CE-C69D-4340-A864-7509FAB32B00}
+	EndGlobalSection
+EndGlobal
